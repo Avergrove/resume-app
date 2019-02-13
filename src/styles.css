@@ -1,10 +1,16 @@
 /* You can add global styles to this file, and also import other style files */
 @import "~bootstrap/dist/css/bootstrap.min.css";
 
+body{
+    background-image: url("assets/images/Tabru.jpg");
+}
+
 #root-container{
     border-width: 1px;
     border-color: #000000;
     border-style: solid;
+
+    background-image: url("assets/images/Tabru.jpg");
 
     margin-top: 5vh;
     margin-bottom: 5vh;
@@ -13,12 +19,21 @@
     padding-bottom: 2.5vh;
 }
 
+#profile-image{
+    border-radius: 1.618%;
+}
+
+#component-container{
+    margin-top: 2.5vh;
+    margin-bottom: 2.5vh;
+}
+
+.sub-container{
+    margin-top: 1vh;
+    margin-bottom: 1vh;
+}
+
 /* debug*/
 .container{
     border: 1px solid green;
-}
-
-.component-container{
-    margin-top: 1vh;
-    margin-bottom: 1vh;
 }

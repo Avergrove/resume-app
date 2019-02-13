@@ -4,23 +4,44 @@
   <div class="row">
     <div class="col col-md-8">
       <h1>Avergrove</h1>
+      <h3>Draconian Preyseeker</h3>
       <div>Phone: 016-8651699 (MY) / 8430-2790 (SG)</div>
       <div>Email: Avergrove@gmail.com</div>
       <p>
         I am an outgoing and energetic (ask anybody) young professional, seeking
         a career that fits my professional skills, personality, and tendency to
         go hungry . My lion-like head is a masterful problem solver and inspires
-        fear in who gaze upon it. I can solve world hunger in your organization.
+        fear in who gaze upon it.
+      </p>
+
+      <p>
+          I ͓̰̝̤̱͙̗c̴̱̞̖͚̗a͔̖̻͉̥n̰͎̥̕ ̺́s͍̤̀ͅͅo̥̰̻̜̺̩̲͠l̰̲̤̰̦̺̯v̙͇̤̻̜̖̮e̢ ̬w̰͉̗͉oŕ͕͇̮͍̼̤̤l̙̝͚͇͔͔d͇͕̼̪͎̫̰ ͔̻͡hu͎̲̟̠̥͡n̶͙̬͕͔̪̗̮g̦̟̪͔̻̬ḙ̯̠͎̫̬r!͈͖̹̮̹̮̯͘
       </p>
     </div>
     <div class="col col-md-4">
-      <img class="img-fluid" src="assets/images/Avergrove.png" />
+      <img id="profile-image" class="img-fluid" src="assets/images/Avergrove.png" />
     </div>
   </div>
 
-  <app-skills class="component-container"></app-skills>
-  <app-education class="component-container"></app-education>
-  <app-work-experience class="component-container"></app-work-experience>
-  <app-project-highlights class="component-container"></app-project-highlights>
-  <router-outlet></router-outlet>
+  <div id="component-container">
+    <div class="sub-container">
+      <app-skills></app-skills>
+    </div>
+
+    <div class="sub-container">
+      <app-education></app-education>
+    </div>
+
+    <div class="sub-container">
+      <app-work-experience></app-work-experience>
+    </div>
+
+    <div class="sub-container">
+      <app-project-highlights></app-project-highlights>
+    </div>
+
+    <div class="sub-container">
+      <router-outlet></router-outlet>
+    </div>
+  </div>
 </div>
