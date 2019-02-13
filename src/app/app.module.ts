@@ -9,6 +9,7 @@ import { BasicInformationComponent } from './basic-information/basic-information
 import { SkillsComponent } from './skills/skills.component';
 
 import { AppBootstrapModule } from './app-bootstrap/app-bootstrap.module';
+import { ProjectHighlightsComponent } from './project-highlights/project-highlights.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { AppBootstrapModule } from './app-bootstrap/app-bootstrap.module';
     EducationComponent,
     WorkExperienceComponent,
     BasicInformationComponent,
-    SkillsComponent
+    SkillsComponent,
+    ProjectHighlightsComponent
   ],
   imports: [
     BrowserModule,

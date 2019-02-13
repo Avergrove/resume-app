@@ -1,2 +1,24 @@
 /* You can add global styles to this file, and also import other style files */
-@import '~bootstrap/dist/css/bootstrap.min.css';
+@import "~bootstrap/dist/css/bootstrap.min.css";
+
+#root-container{
+    border-width: 1px;
+    border-color: #000000;
+    border-style: solid;
+
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+
+    padding-top: 2.5vh;
+    padding-bottom: 2.5vh;
+}
+
+/* debug*/
+.container{
+    border: 1px solid green;
+}
+
+.component-container{
+    margin-top: 1vh;
+    margin-bottom: 1vh;
+}
