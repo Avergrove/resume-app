@@ -3,6 +3,8 @@
 
 body{
     background-image: url("assets/images/Tabru.jpg");
+
+    color: white;
 }
 
 #root-container{
@@ -10,7 +12,7 @@ body{
     border-color: #000000;
     border-style: solid;
 
-    background-image: url("assets/images/Tabru.jpg");
+    background-color: #444444;
 
     margin-top: 5vh;
     margin-bottom: 5vh;
@@ -31,9 +33,9 @@ body{
 .sub-container{
     margin-top: 1vh;
     margin-bottom: 1vh;
-}
 
-/* debug*/
-.container{
+    padding-top: 1vh;
+    padding-bottom: 1vh;
+
     border: 1px solid green;
 }
