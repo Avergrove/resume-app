@@ -1,0 +1,29 @@
+.section{
+    min-height: 100vh;
+
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.odd-section{
+    background-color: #68a035;
+}
+
+.even-section{
+    background-color: #A049CA;
+}
+
+#arrow-down{
+    margin: auto;
+    width: 50%;
+    text-align: center;
+
+    margin-top: 5vh;
+}
+
+.component-container{
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 1%;
+
+    padding: 2.5vh 2.5vw;
+}

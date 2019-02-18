@@ -1,41 +1,27 @@
 /* You can add global styles to this file, and also import other style files */
 @import "~bootstrap/dist/css/bootstrap.min.css";
+@import "~font-awesome/css/font-awesome.css";
+@import "assets/css/animate.css";
+
+
+.bold{
+    font-weight: bold;
+}
+
+.italic{
+    font-style: italic;
+}
+
+.image-shadow{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
 
 body{
-    background-image: url("assets/images/Tabru.jpg");
-
     color: white;
 }
 
-#root-container{
-    border-width: 1px;
-    border-color: #000000;
-    border-style: solid;
-
-    background-color: #444444;
-
-    margin-top: 5vh;
-    margin-bottom: 5vh;
-
-    padding-top: 2.5vh;
-    padding-bottom: 2.5vh;
-}
-
-#profile-image{
-    border-radius: 1.618%;
-}
-
-#component-container{
-    margin-top: 2.5vh;
-    margin-bottom: 2.5vh;
-}
-
-.sub-container{
-    margin-top: 1vh;
-    margin-bottom: 1vh;
-
-    padding-top: 1vh;
-    padding-bottom: 1vh;
-
-    border: 1px solid green;
+hr{
+    display: block;
+    border: 0;
+    border-top: 1px solid #ccc;
 }

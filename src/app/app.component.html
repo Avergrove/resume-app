@@ -1,50 +1,40 @@
-<br />
+<nav class="navbar navbar-dark bg-dark">
+  <!-- Navbar content -->
+</nav>
 
-<div id="root-container" class="container">
-  <div class="row">
-    <div class="col col-md-8">
-      <h1>Avergrove</h1>
-      <h3>Draconian Preyseeker</h3>
-      <div>Phone: 016-8651699 (MY) / 8430-2790 (SG)</div>
-      <div>Email: Avergrove@gmail.com</div>
-      <p>
-        I am an outgoing and energetic (ask anybody) young professional, seeking
-        a career that fits my professional skills, personality, and tendency to
-        go hungry . My lion-like head is a masterful problem solver and inspires
-        fear in who gaze upon it.
-      </p>
-
-      <p>
-          I ͓̰̝̤̱͙̗c̴̱̞̖͚̗a͔̖̻͉̥n̰͎̥̕ ̺́s͍̤̀ͅͅo̥̰̻̜̺̩̲͠l̰̲̤̰̦̺̯v̙͇̤̻̜̖̮e̢ ̬w̰͉̗͉oŕ͕͇̮͍̼̤̤l̙̝͚͇͔͔d͇͕̼̪͎̫̰ ͔̻͡hu͎̲̟̠̥͡n̶͙̬͕͔̪̗̮g̦̟̪͔̻̬ḙ̯̠͎̫̬r!͈͖̹̮̹̮̯͘
-      </p>
-
-      <div>
-        <h5>Contacts</h5>
-        <div>Github: <a href="https://github.com/Avergrove" target="_blank">Avergrove</a></div>
-      </div>
-    </div>
-    <div class="col col-md-4">
-      <img id="profile-image" class="img-fluid" src="assets/images/Avergrove.png" />
-    </div>
-  </div>
-
-  <div id="component-container">
-    <div class="sub-container">
-      <app-skills></app-skills>
-    </div>
-
-    <div class="sub-container">
-      <app-education></app-education>
-    </div>
-
-    <div class="sub-container">
-      <app-work-experience></app-work-experience>
-    </div>
-
-    <div class="sub-container">
-      <app-project-highlights></app-project-highlights>
-    </div>
-
-    <router-outlet></router-outlet>
+<div class="section odd-section">
+  <div class="container component-container">
+    <app-profile-intro></app-profile-intro>
+    <div id="arrow-down"><fa name="arrow-down" size="4x"></fa></div>
   </div>
 </div>
+
+<div class="section even-section">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-8">
+        <div class="container component-container">
+          <h3>Work Experience</h3>
+          <hr />
+          <app-work-experience></app-work-experience>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="container component-container">
+          <app-skills></app-skills>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="section odd-section">
+  <app-education></app-education>
+</div>
+
+<div class="section even-section">
+  <app-project-highlights></app-project-highlights>
+</div>
+
+<router-outlet></router-outlet>

@@ -1,0 +1,44 @@
+<div class="row">
+  <div class="col-md-4">
+    <img
+      id="profile-image"
+      [ngClass]="{ 'image-shadow': true, 'img-fluid': true, 'animated tada': onProfileHover }"
+      (mouseenter)="playProfileImageAnim(true)"
+      (mouseleave)="playProfileImageAnim(false)"
+      src="assets/images/Avergrove.png"
+    />
+
+    <div>
+      <fa name="github" size="2x" class="contact-icon"></fa
+      ><a href="https://github.com/Avergrove" class="bold contact-url"
+        >Avergrove</a
+      >
+      <fa name="external-link"></fa>
+    </div>
+    <div>
+      <fa name="phone" size="2x" class="contact-icon"></fa> 016-8651699 (MY) /
+      8430-2790 (SG)
+    </div>
+    <div>
+      <fa name="envelope" size="2x" class="contact-icon"></fa>
+      Avergrove@gmail.com
+    </div>
+    <div><fa name="linkedin" size="2x" class="contact-icon"></fa> ...</div>
+  </div>
+
+  <div class="col-md-8">
+    <h1>Avergrove Dragonmight</h1>
+    <h3 class="bold">Draconian Preyseeker</h3>
+    <hr />
+    <p>
+      I am an outgoing and energetic (ask anybody) young professional, seeking a
+      career that fits my professional skills, personality, and tendency to go
+      hungry . My lion-like head is a masterful problem solver and inspires fear
+      in who gaze upon it.
+    </p>
+
+    <p class="italic">
+      I can also solve world hunger!
+    </p>
+  </div>
+</div>

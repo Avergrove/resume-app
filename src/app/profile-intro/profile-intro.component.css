@@ -1,0 +1,15 @@
+
+
+#profile-image{
+    margin-bottom: 1.5vh;
+}
+
+.contact-url{
+    color: rgb(235, 228, 255);
+    text-decoration: underline;
+}
+
+.contact-icon{
+    display: inline-block;
+    min-width: 3vw;
+}

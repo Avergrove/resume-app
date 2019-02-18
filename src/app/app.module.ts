@@ -11,6 +11,9 @@ import { SkillsComponent } from './skills/skills.component';
 import { AppBootstrapModule } from './app-bootstrap/app-bootstrap.module';
 import { ProjectHighlightsComponent } from './project-highlights/project-highlights.component';
 
+import { AngularFontAwesomeModule} from 'angular-font-awesome';
+import { ProfileIntroComponent } from './profile-intro/profile-intro.component';
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -18,12 +21,14 @@ import { ProjectHighlightsComponent } from './project-highlights/project-highlig
     WorkExperienceComponent,
     BasicInformationComponent,
     SkillsComponent,
-    ProjectHighlightsComponent
+    ProjectHighlightsComponent,
+    ProfileIntroComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    AppBootstrapModule
+    AppBootstrapModule,
+    AngularFontAwesomeModule
   ],
   providers: [],
   bootstrap: [AppComponent]

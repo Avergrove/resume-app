@@ -1,5 +1,12 @@
 <div class="container">
-  <h3>Work Experience</h3>
-  <div>Software Engineer Intern - National Computer Systems (NCS)"</div>
-  <div>Intern - Mitsui Sumitomo Insurance Group (MSIG)"</div>
+  <div class="row workExperience-row" *ngFor="let workExperience of workExperiences">
+    <div class="col col-md-4">
+      <img class="company-image image-shadow" [src]="workExperience.company.imageSrc" />
+    </div>
+
+    <div class="col col-md-8">
+      <h6>{{ workExperience.role }}</h6>
+      <div>{{ workExperience.description }}}</div>
+    </div>
+  </div>
 </div>
