@@ -1,4 +1,6 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Input } from '@angular/core';
+import { Education } from '../../models/interface/education';
+import ModelFetcher from '../../utils/ModelFetcher';
 
 @Component({
   selector: 'app-education',
@@ -7,7 +9,11 @@ import { Component, OnInit } from '@angular/core';
 })
 export class EducationComponent implements OnInit {
 
-  constructor() { }
+  @Input() educations : Education[];
+
+  constructor() {
+    this.educations = ModelFetcher.getEducations();
+   }
 
   ngOnInit() {
   }

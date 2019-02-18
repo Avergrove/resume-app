@@ -1,4 +1,6 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Input } from '@angular/core';
+import { ProjectExperience } from '../../models/interface/project-experience';
+import ModelFetcher from '../../utils/ModelFetcher';
 
 @Component({
   selector: 'app-project-highlights',
@@ -7,7 +9,11 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ProjectHighlightsComponent implements OnInit {
 
-  constructor() { }
+  @Input() experiences : ProjectExperience[];
+
+  constructor() { 
+    this.experiences = ModelFetcher.getProjectExperiences();
+  }
 
   ngOnInit() {
   }

@@ -1,5 +1,9 @@
-<div class="container">
-  <h3>Project experience and Highlights</h3>
-  <div>Resume Website - Angular</div>
-  <div>You're viewing it right now!</div>
+<div class="row">
+  <div class="col-12 project-experience-row" *ngFor="let experience of experiences">
+    <div class="container">
+      <h5>{{ experience.name }}</h5>
+      <hr />
+      <div>{{ experience.description }}</div>
+    </div>
+  </div>
 </div>

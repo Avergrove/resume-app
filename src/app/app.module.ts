@@ -13,6 +13,7 @@ import { ProjectHighlightsComponent } from './project-highlights/project-highlig
 
 import { AngularFontAwesomeModule} from 'angular-font-awesome';
 import { ProfileIntroComponent } from './profile-intro/profile-intro.component';
+import { CertificationsComponent } from './certifications/certifications.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { ProfileIntroComponent } from './profile-intro/profile-intro.component';
     BasicInformationComponent,
     SkillsComponent,
     ProjectHighlightsComponent,
-    ProfileIntroComponent
+    ProfileIntroComponent,
+    CertificationsComponent
   ],
   imports: [
     BrowserModule,
