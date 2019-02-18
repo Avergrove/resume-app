@@ -46,7 +46,7 @@ export default class ModelFetcher {
     );
     let unswEducation = new Education(
       unsw,
-      "Bachelor in Computer Science",
+      "Bachelor in Science (Computer Science)",
       "This super flexible degree is concerned with the core principles and technologies that make up the entire range of computer-based systems. It studies the principles underlying computer hardware, algorithms, operating systems, networks, databases, graphics and artificial intelligence, and also the practice of building these systems. This degree sits within Engineering because of its relationship with Electrical Engineering and robotics."
     );
 
@@ -85,13 +85,13 @@ export default class ModelFetcher {
     let experiences: ProjectExperience[] = [];
 
     let aiRpg = new ProjectExperience(
-      "AI Rpg",
+      "RPG Artificial Intelligence", "", "Java, Command Line",
       "Created an Artificial Intelligence that will play a command-line based RPG, which involves exploration of an area, and using its knowledge of the surrounding, utilizes tools to complete the stage. The program was able to reliaby complete each stage with ease."
     );
     experiences.push(aiRpg);
 
     let resumeApp = new ProjectExperience(
-      "Resume Application",
+      "Resume Application", "https://github.com/Avergrove/resume-app", "Angular, Bootstrap",
       "The resume application is a website written on Angular. It is published on Github Pages, and allows people to easily view the user's basic information anytime, anywhere, online! The application was also written modularly and concisely to ensure that making changes to the application is a snap!"
     );
     experiences.push(resumeApp);

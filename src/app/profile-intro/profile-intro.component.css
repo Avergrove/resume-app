@@ -1,12 +1,8 @@
-
-
 #profile-image{
-    margin-bottom: 1.5vh;
-}
+    margin-bottom: 2.5vh;
+    transform: rotate(-2.5deg);
 
-.contact-url{
-    color: rgb(235, 228, 255);
-    text-decoration: underline;
+    border: 5px solid white;
 }
 
 .contact-icon{

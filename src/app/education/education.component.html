@@ -1,13 +1,13 @@
 <div class="container">
   <div class="row education-row" *ngFor="let education of educations">
-    <div class="col col-md-4">
+    <div class="col-md-4">
       <img
         class="educational-institution-image image-shadow"
         [src]="education.institution.imageSrc"
       />
     </div>
 
-    <div class="col col-md-8">
+    <div class="col-md-8">
       <h5>{{ education.institution.name }}</h5>
       <h6 class="bold italic">{{ education.qualification }}</h6>
       <hr />

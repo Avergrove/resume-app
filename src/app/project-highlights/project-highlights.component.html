@@ -1,7 +1,9 @@
 <div class="row">
   <div class="col-12 project-experience-row" *ngFor="let experience of experiences">
-    <div class="container">
-      <h5>{{ experience.name }}</h5>
+    <div class="container" [ngSwitch]="experience.url">
+      <span *ngSwitchCase="''"><h4>{{ experience.name }}</h4></span>
+      <span *ngSwitchDefault><a href={{experience.url}}><h4>{{experience.name}}</h4></a></span>
+      <span *ngIf="experience.subText != ''"><h6 class="italic">{{experience.subtext}}</h6></span>
       <hr />
       <div>{{ experience.description }}</div>
     </div>
